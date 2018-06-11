@@ -1,34 +1,23 @@
 'use strict';
 
-// conditional logic
-// if/else 
+alert(' Hey this is a guessing game about me');
+var userName = prompt('Can you please guess my name?');
+console.log('user\'s name is:' + userName );
+   
+var numberChildren = prompt ('How many children do you think I have?');
+console.log('Number of Children:' + numberChildren);   
 
-// if (condition is met) {
-//   run this line of code;
-// } else {
-//   run this line of code; 
-// }
+var countryOrigin = prompt ('Do you know which country I am from ?');
+console.log('Country of Origin:' + countryOrigin);
 
-var numberChildren = parseInt(prompt('How many childrendo do I have?'));
+var hobbiesPreference = prompt ('Can you guess what are my hobbies?');
+console.log('prefered hobbies:'+ hobbiesPreference);  
 
-if(numberChildren === 3 {
-  alert('That is correct!');
-} else if(numberChildren > 3) {
-  alert('That is too high.');
-} else {
-  alert('That is too low.');
-}
+var stateResidence = prompt ('Do you know where I lived before coming to WA');
+console.log ('former state of residence:' + stateResidence);
 
-// if(numberChildren === 3) {
-//   alert('That is correct!');
-// } else {
-//   alert('That is not correct.');
-// }
+var topPlayer = prompt ('DO you know my best african soccer player ever?');
+console.log ('My best african soccer player ever:' + topPlayer);
 
-// possible inputs: y, yes, yeah, yep, Y, YES, YeS, n, N, no, NO, No
-
-var playGame = prompt('Do you want to play my guessing game? Please only answer with yes or no.').toLowerCase();
-
-if(playGame === 'yes') {
-  
-}
+// I just want to give reallife everyday experience   
+// A welcoming scene between a nurse and a Patient
