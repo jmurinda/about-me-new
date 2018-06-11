@@ -1,4 +1,3 @@
-'use strict';
 
 alert(' Hey this is a guessing game about me');
 var userName = prompt('Can you please guess my name?');
